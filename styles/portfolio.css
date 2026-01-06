@@ -12,6 +12,7 @@
 .logo h2{
     font-size: 45px;
     font-weight: 900;
+    
 }
 .color-orange{
     color: hsl(32, 100%, 50%);
@@ -19,17 +20,22 @@
 .btn{
     background-color:hsl(32, 100%, 50%) ;
     border: none;
-    padding: 18px 35px ;
+    padding: 15px 30px ;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
+    cursor: pointer;
 
 }
 /* main style */
 header{
     background-color: #fff8f3;
     padding-top: 50px;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
     
 }
   nav{
@@ -52,4 +58,38 @@ header{
     color: #474747;
     text-decoration: none;
   }
+  #banner{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #banner .banner-content{
+    max-width: 585px;
+
+   }
+  #banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+  }
+  #banner .banner-content h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+  }
+ #banner .banner-content p{
+    color: #757575;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+ }
+ #banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+ }
   
